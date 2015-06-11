@@ -1,5 +1,6 @@
 # This configuration file builds both the static and shared version of
 # the library.
+set(CMAKE_MACOSX_RPATH 1)
 set(replication_sources
   access_method_factory.cpp field_iterator.cpp row_of_fields.cpp
   binlog_driver.cpp basic_transaction_parser.cpp tcp_driver.cpp
